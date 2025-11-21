@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <style>
+        body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: 600; 
+} 
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #264653;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+
+}.hero h2 span {
+    color: #e76f51;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.btn {
+    background-color: #e76f51;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f4a261;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+
+}.about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #f4f4f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #264653;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+    <style>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@400;600&display=swap"
+rel="stylesheet">
+</head>
+<body>
+<!-- !-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<section class="hero">
+    <div class="container">
+        <h1>Hello, I'm <span>Swapnil Tayde</span></h1>
+        <h2>A passionate Front-end Developer</h2>
+        <a class="btn" href="#projects">View My Work</a>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container about">
+        <h2>About Me</h2>
+        <p>I specialize in creating interactive and responsive websites that look great on any device, with an eye for design and functionality.</p>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+
+        <div class="project-cards">
+
+            <div class="card">
+                <h3>Nutritrack - Real Time Foodfuel Monitoring System</h3>
+                <p>Developed a machine learning system that processes uploaded food images to identify the type of food and
+estimate its calorie content using nutritional databases. I designed a user-friendly web interface, demonstrating my full stack abilities and commitment to high-quality
+solutions.</p>
+            </div>
+
+            <div class="card">
+                <h3>Online Shopping System Mini Project</h3>
+                <p>Successfully designed and implemented a fully functional online shopping system, showcasing my advanced
+programming skills in HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="card">
+                <h3>MyPortfolio</h3>
+                <p>This dynamic portfolio is built using clean HTML for structure and modern CSS for styling, including responsive grids and smooth animations.
+Interactive project cards use simple HTML with advanced CSS hover effects.
+Overall, the design feels modern, fast, and visually engaging through well-crafted HTML and CSS.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container contact-container">
+        <h2>Contact Me</h2>
+        <p>If you’d like to work together or just say hello, feel free to reach out!</p>
+        <a href="mailto:swapniltayde325@gmail.com" class="btn">Email Me</a>
+    </div>
+
+</section>
+<footer>
+    <p>&copy; 2025 Swapnil Tayde. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
